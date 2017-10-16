@@ -2,3 +2,8 @@
 alias gitfile='cd ~/Documents/gitprojs'
 alias src='source ~/.bashrc'
 alias g='/c/Usr/Vim/vim74/gvim'
+alias status='git status'
+alias push='git push'
+alias pull='git pull'
+alias add='git add *'
+alias commit='git commit'
