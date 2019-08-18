@@ -123,7 +123,7 @@ set completion=ignore-case on
 
 
 
-alias wa='cd ${W}'
+alias wa='cd ${WA}'
 alias src='source ~/.bashrc'
 alias g='gvim'
 alias status='git status'

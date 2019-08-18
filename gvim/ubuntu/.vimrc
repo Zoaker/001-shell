@@ -24,8 +24,6 @@ set hlsearch                                  "hightlight search
 set ignorecase                                "ignore case sensitive
 set showcmd                                   "show command
 set showmode                                  "show mode
-set showmatch                                 "show match case ex: (), [], {}
 set cmdheight=2                               "command line height
 set cindent 
 set history=500  
-colorschem default
