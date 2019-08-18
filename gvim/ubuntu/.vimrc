@@ -2,10 +2,6 @@
 "This is for vim/gvim(win7) setting
 "=================================================================
 
-set langmenu=en_US                            " set the menu & the message to English
-let $LANG = 'en_US'                  
-source $VIMRUNTIME/delmenu.vim
-source $VIMRUNTIME/menu.vim
 syntax on             
 syntax enable 
 winpos 800 0                                  "set default window position
@@ -31,8 +27,5 @@ set showmode                                  "show mode
 set showmatch                                 "show match case ex: (), [], {}
 set cmdheight=2                               "command line height
 set cindent 
-set history=500                               "set history record number as 500
-
-colorschem solarized                          "set colorschem
-set background=dark                           "set background
-set guifont=Ubuntu\ Mono\ 14
+set history=500  
+colorschem default
