@@ -4,7 +4,6 @@
 
 syntax on             
 syntax enable 
-winpos 800 0                                  "set default window position
 set nu                                        "set number
 set lines=45 columns=110                      "set default window size
 set autoindent                                "set insert space char

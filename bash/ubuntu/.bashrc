@@ -122,8 +122,10 @@ export WA=/mnt/c/workarea
 set completion=ignore-case on
 
 
-PS1='[${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ]'
+#PS1='[${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ]'
 
+
+PS1='[\u@\h \w]$ '
 alias wa='cd ${WA}'
 alias src='source ~/.bashrc'
 alias g='gvim'
