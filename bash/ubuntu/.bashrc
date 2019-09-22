@@ -120,7 +120,7 @@ fi
 export DISPLAY=localhost:0.0
 export WA=/mnt/c/workarea
 set completion=ignore-case on
-
+export PATH=$PATH:~/bin
 
 #PS1='[${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ]'
 
@@ -138,3 +138,4 @@ alias pull='git pull origin master'
 alias add='git add *'
 alias commit='git commit -m'
 alias l='ls -lrt'
+alias bin='cd ~/bin'
