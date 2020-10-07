@@ -8,7 +8,6 @@ set nu                                        "set number
 set lines=45 columns=110                      "set default window size
 set autoindent                                "set insert space char
 set backspace=indent,eol,start                
-
 set tabstop=4                                 "Indentation levels every four coloms
 set softtabstop=4                             "press tap become inserting 4 spaces, tab occupied 4 spaces
 set expandtab                                 "transfer tab to space
@@ -25,4 +24,4 @@ set showcmd                                   "show command
 set showmode                                  "show mode
 set cmdheight=2                               "command line height
 set cindent 
-set history=500  
+set history=500
