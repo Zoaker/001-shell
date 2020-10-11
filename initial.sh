@@ -1,6 +1,7 @@
 #1.  modify python and ubuntu mirrors 
 sudo cp -rf .pip  ~/.pip
-sudo cp ./bash/ubuntu/sources.list /etc/opt/sources.list
+sudo cp ./bash/ubuntu/sources.list /etc/apt/sources.list
+cp ./bash/ubuntu/.bashrc ~/.bashrc
 
 #2. modify windows wsl config
 sudo cp ./bash/ubuntu/wsl.conf /etc/wsl.conf
